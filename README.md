@@ -5,7 +5,7 @@ This note is now at very priliminary level.
 Steps followed:
 
 * Big data performance testing will be done using open source tools used for benchmarking 
-* Using github everything to be maintained.
+* Github will be used for the version control.
 * Using Jenkins continous integration and delivery to be done.
 * This is basically an ETL job with different stages.
 * Results of all the stages will be validated with some automation scripts(mainly bash or python)
