@@ -6,6 +6,6 @@ class PrintNameTest extends FlatSpec with Matchers{
 
   it should "throw ArithmaticException if attempted to divide by 0" in {
     a[java.lang.ArithmeticException] should be thrownBy {
-      PrintName.divide(20,0)
+      PrintName.divide(20,3)
     }
   }
