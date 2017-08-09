@@ -11,4 +11,17 @@ go to browser [localhost:8083]
 
 Reference :
 https://www.digitalocean.com/community/tutorials/how-to-set-up-jenkins-for-continuous-development-integration-on-centos-7
-TEST
+
+* After that go Manage Jenkins and add the required plugins for github.
+* Once installation has been done restart the jenkins.
+# this is for Maven project
+* select new item. Create a new item. select git and give the git repository path [https://github.com/taffazzel/HelloMaven.git]
+* poll SCM and give * * * * * for building in every one minute.
+* Next go to Build section and click "Add build step", U should be getting a list, from that list select "Invoke top-level Maven targets".
+* In the Goal section write test,compile,clean (according to the need)
+* In the POM section give the path for the POM.xml under the workspace directory.like [root/.jenkins/workspace/HelloWorld/HelloMaven]
+* Setting file -- Use default maven settings
+* Global Setting file -- Use default maven global settings
+* Apply and exit
+
+
