@@ -6,8 +6,8 @@ This page is for installing jenkins on centos 7
 * sudo systemctl start jenkins.service
 * sudo systemctl status jenkins.service
 * java -jar jenkins.war --httpPort=8083
-once it has shown Jenkins is up and ready
-go to browser [localhost:8083]
+* once it has shown Jenkins is up and ready go to browser [localhost:8083]
+* use the password on the terminal and log in on the UI and create a user with password thus, next time we can use the username and password.
 
 Reference :
 https://www.digitalocean.com/community/tutorials/how-to-set-up-jenkins-for-continuous-development-integration-on-centos-7
