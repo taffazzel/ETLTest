@@ -23,5 +23,9 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-jenkins-for-conti
 * Setting file -- Use default maven settings
 * Global Setting file -- Use default maven global settings
 * Apply and exit
-
+* setup JAVA_HOME 
+[root@taffazzel-jenkins HelloMaven]# export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.el7_3.x86_64/jre</br>
+[root@taffazzel-jenkins HelloMaven]# export PATH=$JAVA_HOME/bin:$PATH</br>
+* instll javac yum install java-devel
+* for restart /etc/init.d/jenkins restart
 
